@@ -1,1 +1,1 @@
-# Focus-macintosh
+# Focus-mac
