@@ -47,6 +47,12 @@ Focusは、あなたの集中を助ける強力なデスクトップアプリで
 
    >※ 「アプリ終了後も制限を維持」がオフの場合、hostsファイルの書き換えを行うため、パスワードの入力が必要です。
 
+## 正しいアプリ名の調べ方
+制限したいアプリを起動した状態で、ターミナルに以下のコマンドを打ってください。これで見つかる名前が内部での正確な名前です。
+
+```Bash
+osascript -e 'tell application "System Events" to get name of every process whose background only is false'
+```
 
 ## 注意事項
 
